@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+* {
+    font-family: "Roboto", serif;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+option {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #61a0fd;
+    cursor: pointer;
+}
+
+.pop-up {
+    border: #f1f1f1 solid 8.5px;
+    border-bottom: #f1f1f1 solid 100px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    width: 425px;
+    height: 40vh;
+
+    /* Optional additions */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    padding: 16px; /* Inner spacing */
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.option {
+    display: flex;
+    justify-content: left;
+    height: fit-content;
+    flex-direction: column;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.option-title {
+    margin-bottom: 5px;
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(150, 150, 150);
+}
+
+.option-input {
+    border: #dee2e6 solid 2px;
+    border-radius: 8px;
+    border-left: 5px solid #a94442;
+    width: 300px;
+    height: 35px;
+    font-size: medium;
+    padding-left: 5px;
+}
+
+.option-submit {
+    width: 310px;
+    height: 50px;
+    border: transparent solid 0px;
+    background-color: #61a0fd;
+    cursor: pointer;
+    border-radius: 8.5px;
+    font-size: large;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#option-red {
+    background-color: red;
+    color: white;
+}
+
+#option-green {
+    background-color: green;
+    color: white;
+}
+
+#option-yellow {
+    background-color: yellow;
+    color: black;
+}
+
+#option-black {
+    background-color: black;
+    color: white;
+}
+
+#option-purple {
+    background-color: purple;
+    color: white;
+}
+
+#option-blue {
+    background-color: blue;
+    color: white;
+}
+
+#option-gray {
+    background-color: gray;
+    color: white;
+}
+
+.note {
+    color: #052c65;
+    background-color: #cfe2ff;
+    border: #9ec5fe solid 2px;
+    border-radius: 8.5px;
+    width: 308px;
+    font-size: 14px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pop-up-link {
+    margin-right: 265px;
+}
