@@ -4,11 +4,7 @@ body {
     background-color: white;
     margin: 0;
     padding: 0;
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    user-select: none;
 }
 
 * {
@@ -29,6 +25,10 @@ a {
 }
 
 .pop-up {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     border: #f1f1f1 solid 8.5px;
     border-bottom: #f1f1f1 solid 100px;
     background-color: #ffffff;
@@ -137,4 +137,90 @@ a {
 
 .pop-up-link {
     margin-right: 265px;
+}
+
+header {
+    height: 62px;
+    width: 100%;
+    background-color: #212529 !important;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header-items {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-button {
+    color: #9b9d9e;
+    font-weight: bolder;
+    transition: all 0.2s ease-in-out;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.header-button:hover {
+    cursor: pointer;
+    color: #c7c8c9;
+}
+
+.logo-home {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 20px;
+}
+
+.logo-home h2 {
+    font-weight: 400;
+    width: fit-content;
+    text-wrap: nowrap;
+}
+
+.logo-img {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+
+.create-sound {
+    width: fit-content;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 40px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e03444;
+    border-radius: 8.5px;
+    color: white;
+    font-size: 14px;
+    transition: all 0.2s ease-in-out;
+}
+
+.create-sound:hover {
+    background-color: #c02c3c;
+    cursor: pointer;
+}
+
+.upload-img {
+    width: 16px;
+    margin-right: 10px;
+    transform: translateY(-1px);
 }
